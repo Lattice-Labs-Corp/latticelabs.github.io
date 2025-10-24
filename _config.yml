@@ -1,0 +1,9 @@
+title: Lattice Labs
+description: Building open, secure, and scalable software systems for the future.
+baseurl: ""
+url: "https://latticelabs.github.io"
+theme: jekyll-theme-cayman
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

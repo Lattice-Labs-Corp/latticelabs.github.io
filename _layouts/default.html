@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    {% include head.html %}
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 850px;
+        margin: auto;
+        padding: 2rem;
+        background-color: #fdfdfd;
+        color: #1a1a1a;
+      }
+      header img {
+        max-height: 80px;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="{{ '/assets/logo.png' | relative_url }}" alt="Lattice Labs Logo">
+    </header>
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>
