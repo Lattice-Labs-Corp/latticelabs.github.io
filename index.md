@@ -28,10 +28,7 @@ We believe the future of trust is built on **open-source code** and **verifiable
 
 | Project | Description |
 |--------|-------------|
-| [`baby-kyber-accelerator`](https://github.com/latticelabs/baby-kyber-accelerator) | Lightweight Kyber512 hardware IP core for FPGA/SoC |
-| [`topaz-integration`](https://github.com/latticelabs/topaz-integration) | Fine-grained modern authorization for identity systems |
 | [`rust-lattice`](https://github.com/latticelabs/rust-lattice) | Rust crates for lattice-based crypto primitives |
-| [`streamlit-bench`](https://github.com/latticelabs/streamlit-bench) | Cryptographic benchmarking and visualization suite |
 
 ---
 
